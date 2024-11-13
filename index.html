@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel Rebar Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Steel Rebar Estimator</h1>
+        <p id="description"> Please enter rebar diameter in mm, length of steel rebar in meter 
+            and market price of rebar per ton, which is used in your construction project.
+            You can calculate weight of required steel in kg and total rebar cost as per market price through this app.
+        </p>
+        <br>
+        <p>Enter diameter (mm) and length (m) of steel rebar</p>
+        <label for="diameter">Diameter of rebar (mm) :</label>
+        <input type="number" id="rebar-dia">
+        <br>
+        <label for="length">Length of rebar (m) :</label>
+        <input type="number" id="rebar-length">
+        <br>
+        <label for="price">Price of steel rebar per ton :</label>
+        <input type="number" id="price">
+        <br>
+        <button id="calculate">Calculate weight of Steel Rebar</button>
+        <br>
+        <label for="total">Total weight of steel (kg) : </label>
+        <span id="totalWeight"></span>
+        <br>
+        <label for="total-price">Total price of rebar : </label>
+        <span id="total-price"></span>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

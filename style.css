@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(127, 127, 190, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color:rgba(127, 127, 190, 0.5) ;
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(127, 127, 190, 0.7);
+    border-radius: 20px;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#description{
+    font-style: italic;
+    text-align: justify;
+    color: rgba(127, 127, 190, 0.9);
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgba(127, 127, 190, 0.7);
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+button{
+    background-color:rgb(101, 101, 151, 0.7);
+    color:aliceblue;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover{
+    background-color: rgb(101, 101, 151) ;
+}
+
+#totalWeight, #total-price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
